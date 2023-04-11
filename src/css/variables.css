@@ -1,0 +1,18 @@
+:root {
+    --largura-maxima: 1440px;
+
+    /* GRADIENTS */
+    --principal-gradient: linear-gradient(
+        to bottom,
+        hsla(252, 100%, 67%, 1),
+        hsla(252, 100%, 63%, 1),
+        hsla(241, 81%, 54%, 1)
+      );
+
+    --circle-gradient: linear-gradient(
+        to bottom,
+        hsla(256, 71%, 46%, 1),
+        hsla(241, 71%, 46%, 0)
+      );
+
+}

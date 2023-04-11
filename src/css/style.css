@@ -1,0 +1,186 @@
+.container {
+    min-height: 100vh;
+    max-width: var(--largura-maxima);
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    width: max-content;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2.5rem;
+    box-shadow: 1rem 2rem 2rem hsl(234, 85%, 45%, 0.1);
+}
+
+.box-result {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 38rem;
+    width: 28rem;
+    border-radius: 2.5rem;
+}
+
+.box-result h2 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: hsla(221, 100%, 96%, 0.6);
+    margin: 25px;
+}
+
+.circle {
+    background: var(--circle-gradient);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.circle .score {
+    font-weight: 700;
+    font-size: 6rem;
+    color: #FFF;
+}
+
+.circle .max-score {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: hsla(221, 100%, 96%, 0.6);
+}
+
+.box-result h3 {
+    font-size: 2.5rem;
+    color: hsl(0, 0%, 100%);
+    margin: 15px 0;
+    font-weight: 500;
+}
+
+.box-result .description {
+    font-size: 1.5rem;
+    max-width: 80%;
+    color: hsl(221, 100%, 96%, 0.7);
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+.box-summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    border-bottom-right-radius: 2.5rem;
+    height: 38rem;
+    width: 28rem;
+    padding: 0rem 2.5rem;
+}
+
+.box-summary h2{
+    font-size: 1.6rem;
+    color: hsl(224, 30%, 27%);
+}
+
+.table-numbers .retangulo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    padding: 0 15px;
+    width: 100%;
+    min-height: 4rem;
+    margin-bottom: 1rem;
+}
+
+.red{
+    background-color: hsla(0, 100%, 67%, 0.1);
+    border-radius: 5px;
+    color: hsla(0, 100%, 67%, 1);
+}
+
+.reaction{
+    display: flex;
+}
+
+.reaction img{
+    width: 15px;
+    margin-right: 5px;
+}
+
+.yellow{
+    background-color: hsla(39, 100%, 56%, 0.1);
+    border-radius: 5px;
+    color: hsla(39, 100%, 56%, 1);
+}
+
+.memory{
+    display: flex;
+}
+
+.memory img{
+    width: 15px;
+    margin-right: 5px;
+}
+
+.green{
+    background-color: hsla(166, 100%, 37%, 0.1);
+    border-radius: 5px;
+    color: hsla(166, 100%, 37%, 1);
+}
+
+.verbal{
+    display: flex;
+}
+
+.verbal img{
+    width: 15px;
+    margin-right: 5px;
+}
+
+.blue{
+    background-color: hsla(234, 85%, 45%, 0.1);
+    border-radius: 5px;
+    color: hsla(234, 85%, 45%, 1);
+}
+
+.visual{
+    display: flex;
+}
+
+.visual img{
+    width: 15px;
+    margin-right: 5px;
+}
+
+.number{
+    font-weight: 800;
+    color: hsla(224, 30%, 27%, 0.7);
+}
+
+.gray{
+    font-weight: 700;
+    color: hsla(224, 30%, 27%, 0.5);
+}
+
+.btn-continue {
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.btn-continue:hover{
+    background-color:hsl(234, 85%, 45%);
+}
