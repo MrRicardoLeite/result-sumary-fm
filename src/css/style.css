@@ -1,6 +1,6 @@
 .container {
     min-height: 100vh;
-    max-width: var(--largura-maxima);
+    /* max-width: var(--largura-maxima); */
     background-color: #FFF;
     display: flex;
     justify-content: center;
